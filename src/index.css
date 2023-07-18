@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:monospace;
+
+}
+
+.app{
+  background-image: url(photos/19\ Reasons\ Colorado\ Is\ A\ Wintry\ Heaven\ On\ Earth.jpg);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease;
+  margin: 20px 600px;
+}
+
+.app.summer{
+  background-image: url(photos/Summer\ Memories_edited.jpg);
+}
+
+main{
+ min-height: 100vh;
+ background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.2),rgba(22, 16, 16, 0.75));
+ padding: 25px;
+}
+
+
+.search-box{
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgb(193, 204, 213);
+  margin-top: -25px;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px rgba(60, 71, 73, 0.75) ;
+  color: rgb(217, 227, 227);
+}
+
+.search-box .search-bar:focus{
+  background-color: rgb(191, 192, 194);
+}
+
+.location .city{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800px;
+  text-align: center;
+  text-shadow: 3px 3px rgba(22, 16, 16, 0.75);
+}
+
+.location .date{
+  color: #fff;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box{
+  text-align: center;
+}
+
+.weather-box .Temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.2);
+  font-family:sans-serif;
+  border-radius: 16px;
+  padding: 15px 25px;
+  font-size:82px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .state{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  text-shadow: 3px 2px rgba(0, 0, 0, 0.75);
+}
